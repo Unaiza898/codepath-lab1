@@ -20,12 +20,12 @@ const Calendar = () => {
   <tbody>
   <tr>
                 <td className="time">8 am</td>
-                <Event event='Starbucks ☕️' color ='green'/>
+                <Event event='Starbucks ☕️' location='646 Michigan Ave'color ='green'/>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
-                <Event event='Yolk 🍳' color ='green'/>
+                <Event event='Yolk 🍳'location='355 E Ohio St' color ='green'/>
                 <td></td>
             </tr>
             <tr>
@@ -33,15 +33,15 @@ const Calendar = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <Event event='Subway 🚊' color ='pink'/>
+                <Event event='Subway 🚊' location='Grand Station' color ='pink'/>
                 <td></td>
                 <td></td>
-                <Event event='The Bean 🫘' color ='blue'/>
+                <Event event='The Bean 🫘' location='Millenium Park' color ='blue'/>
             </tr>
       <tr>
           <td className="time">10 am</td>
           <td></td>
-          <td></td>
+          <Event event='River Cruise ⛵' location='Chicago River' color ='blue'/>
           <td></td>
           <td></td>
           <td></td>
@@ -53,7 +53,7 @@ const Calendar = () => {
           <td></td>
           <td></td>
           <td></td>
-          <td></td>
+          <Event event='Deep Dish 🍕'location='Giodano&apos;s' color ='green'/>
           <td></td>
           <td></td>
           <td></td>
@@ -65,7 +65,7 @@ const Calendar = () => {
           <td></td>
           <td></td>
           <td></td>
-          <td> <Event event='Subway 🚊' color ='pink'/></td>
+          <Event event='Subway 🚊' location='Washington Station' color ='pink'/>
           <td></td>
       </tr>
       <tr>
@@ -80,22 +80,21 @@ const Calendar = () => {
       </tr>
       <tr>
           <td className="time">2 pm</td>
-
           <td></td>
           <td></td>
+          <Event event='Art Institute 🖼️' location='111 S Michigan Ave' color ='blue'/>
           <td></td>
-          <td></td>
-          <td></td>
+          <Event event='Dirl & the Goat'location='809 W Randolph St'  color ='pink'/>
           <td></td>
           <td></td>
       </tr>
       <tr>
           <td className="time">3 pm</td>
+          <Event event='Cubs Game ⚾' location='Wringley Field' color ='blue'/>
           <td></td>
           <td></td>
           <td></td>
-          <td> ::smile </td>
-          <td> <Event event='Subway 🚊 '  color ='pink'/></td>
+        <Event event='Subway 🚊 ' location='Roosevelt Station'  color ='pink'/>
           <td></td>
           <td></td>
       </tr>
@@ -103,7 +102,7 @@ const Calendar = () => {
           <td className="time">4 pm</td>
           <td></td>
           <td></td>
-          <td></td>
+          <Event event='Fancy Dinner 🎩' location='Maple & Ash' color ='green'/>
           <td></td>
           <td></td>
           <td></td>
@@ -116,7 +115,7 @@ const Calendar = () => {
           <td></td>
           <td></td>
           <td></td>
-          <td></td>
+          <Event event='Shopping 🛍️' location='Magnificent Mile' color ='blue'/>
           <td></td>
       </tr>
   </tbody>
